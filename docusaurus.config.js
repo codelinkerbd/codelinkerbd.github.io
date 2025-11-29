@@ -80,17 +80,32 @@ const config = {
           src: 'img/fav.ico'
         },
         items: [
+          { to: '/services', label: 'Services', position: 'left' },
+          { to: '/erp', label: 'ERP', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial'
+            label: 'Documentation'
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            to: '/about-me',
-            label: 'About Us',
+            to: '/about',
+            label: 'About',
             position: 'left'
+          },
+          { to: '/contact', label: 'Contact', position: 'left' },
+          {
+            'href': 'https://facebook.com/codelinkerbd',
+            'position': 'right',
+            'className': 'header-facebook-link',
+            'aria-label': 'Facebook Page'
+          },
+          {
+            'href': 'https://x.com/codelinkerbd',
+            'position': 'right',
+            'className': 'header-x-link',
+            'aria-label': 'X Profile'
           },
           {
             'href': 'https://github.com/codelinkerbd',

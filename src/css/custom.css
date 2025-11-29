@@ -288,6 +288,34 @@ button {
   background-color: var(--ifm-navbar-link-hover-color);
 }
 
+.header-facebook-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.407.593 24 1.324 24h11.495v-9.294H9.691V11.01h3.128V8.309c0-3.1 1.893-4.788 4.659-4.788 1.324 0 2.463.099 2.794.143v3.24h-1.92c-1.506 0-1.798.717-1.798 1.769v2.337h3.588l-.467 3.696h-3.12V24h6.117C23.407 24 24 23.407 24 22.676V1.324C24 .593 23.407 0 22.676 0z'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.header-facebook-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.header-x-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.9 0 12 7.53 5.1 0H0l9.6 10.73L0 24h5.1l6.9-7.53L18.9 24H24L14.4 13.27 24 0h-5.1z'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.header-x-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
 /*  Keyboard search keys */
 kbd {
   &[class^='searchHint_'] {
