@@ -1,15 +1,15 @@
 {
-  "name": "docusaurus-tailwind-shadcn-template",
-  "description": "Intergrating Tailwind CSS and Shadcn/ui with Docusaurus website template",
-  "author": "Thành Nam Nguyễn",
+  "name": "codelinkerbd.github.io",
+  "description": "Codelinker Ltd. is a software development powerhouse trusted by leading organizations since 2019 developing custom solutions in web applications, mobile platforms, cloud infrastructure, and enterprise systems.",
+  "author": "Codelinker Ltd.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template.git"
+    "url": "git+https://github.com/codelinkerbd/codelinkerbd.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/issues"
+    "url": "https://github.com/codelinkerbd/codelinkerbd.github.io/issues"
   },
-  "homepage": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template#readme",
+  "homepage": "https://github.com/codelinkerbd/codelinkerbd.github.io",
   "version": "1.0.0",
   "private": true,
   "scripts": {

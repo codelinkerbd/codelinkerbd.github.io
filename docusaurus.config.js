@@ -10,20 +10,21 @@ import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Tailwind Shadcn/ui',
-  tagline: 'Templates Docusaurus with Tailwind CSS and Shadcn/ui',
-  favicon: 'img/favicon.ico',
+  title: 'Codelinker Ltd.',
+  tagline: 'Enterprise-Grade ERP Solutions You Can Count On',
+  favicon: 'img/fav.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://codelinker.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'namnguyenthanhwork', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-tailwind-shadcn-template', // Usually your repo name.
+  organizationName: 'codelinkerbd', // Usually your GitHub org/user name.
+  projectName: 'codelinkerbd.github.io', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   markdown: {
@@ -70,12 +71,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/mahmud-abdur-rahman.jpg',
       navbar: {
-        title: 'Docusaurus Tailwind',
+        title: 'Codelinker Ltd.',
         logo: {
-          alt: 'Docusaurus Tailwind Shadcn/ui Logo',
-          src: 'img/logo.svg'
+          alt: 'Codelinker Ltd.',
+          src: 'img/fav.ico'
         },
         items: [
           {
@@ -87,11 +88,11 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             to: '/about-me',
-            label: 'About Me',
+            label: 'About Us',
             position: 'left'
           },
           {
-            'href': 'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template',
+            'href': 'https://github.com/codelinkerbd',
             'position': 'right',
             'className': 'header-github-link',
             'aria-label': 'GitHub repository'
@@ -114,16 +115,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus'
+                label: 'ERP',
+                href: 'https://codexcl.com'
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus'
+                label: 'Organization',
+                href: 'https://codelinker.com'
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus'
+                href: 'https://x.com/xeroticikot'
               }
             ]
           },
@@ -136,12 +137,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus'
+                href: 'https://github.com/codelinkerbd'
               }
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Docusaurus Tailwind Shadcn. Templates by <a href="https://github.com/namnguyenthanhwork" style="font-weight: bold;" target="_blank">Thành Nam Nguyễn</a>`
+        copyright: `Copyright © ${new Date().getFullYear()} Codelinker Ltd.`
       },
       prism: {
         theme: prismThemes.github,
@@ -203,7 +204,7 @@ const config = {
         onUntruncatedBlogPosts: 'ignore',
         // Remove this to remove the "edit this page" links.
         editUrl:
-          'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/',
+          'https://mahmudabdurrahman.com',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]]
       }
     ]

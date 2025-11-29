@@ -11,7 +11,7 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
+      description='Codelinker Ltd. is a software development powerhouse trusted by leading organizations since 2019 developing custom solutions in web applications, mobile platforms, cloud infrastructure, and enterprise systems.'
     >
       <main className='background-grid background-grid--fade-out'>
         <HeroBanner />

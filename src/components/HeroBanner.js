@@ -23,9 +23,24 @@ const FrameworkPill = ({ framework }) => {
 export default function HeroBanner() {
   const frameworks = [
     {
-      id: 'docusaurus',
-      icon: '/img/logo.svg',
-      name: 'Docusaurus'
+      id: 'python',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+      name: 'Python'
+    },
+    {
+      id: 'django',
+      icon: '/img/django.svg',
+      name: 'Django'
+    },
+    {
+      id: 'javascript',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
+      name: 'JavaScript'
+    },
+    {
+      id: 'svelte',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg',
+      name: 'SvelteKit'
     },
     {
       id: 'react',
@@ -36,6 +51,16 @@ export default function HeroBanner() {
       id: 'tailwind',
       icon: '/img/tailwind.svg',
       name: 'Tailwind CSS'
+    },
+    {
+      id: 'rust',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg',
+      name: 'Rust'
+    },
+    {
+      id: 'devops',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg',
+      name: 'DevOps'
     }
   ]
 
@@ -58,19 +83,21 @@ export default function HeroBanner() {
                 }}
               />
               <AnimatedGradientText className='text-sm font-medium'>
-                🚀 Built with Modern Web Technologies
+                🚀 SAAS ERP IS AVAILABLE NOW! APPLY FOR 14 DAYS TRIAL!
               </AnimatedGradientText>
             </div>
 
             <h1 className='mt-4 mb-4 text-[28px] leading-tight font-bold text-gray-900 sm:mt-6 sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white'>
-              Powerful Documentation/Blog
+              Smart ERP. Smarter Business.
               <br className='hidden sm:block' />
-              <span className='sm:hidden'> </span>with Modern Frameworks
+              <span className='sm:hidden'> </span>Codelinker Ltd.
             </h1>
 
             <p className='mx-auto mb-6 max-w-2xl text-base leading-relaxed text-gray-600 sm:mb-8 sm:text-lg dark:text-gray-300'>
-              A modern documentation/blog template built with Docusaurus, styled with Tailwind CSS,
-              and enhanced with React components for the best developer experience.
+              Codelinker Ltd. is a software development powerhouse trusted by leading organizations since 2019. We engineer 
+              custom solutions in web applications, mobile platforms, cloud infrastructure, and enterprise systems. Based in Dhaka, 
+              our developers blend cutting-edge technology with collaborative problem-solving to deliver software that scales, 
+              performs, and evolves with your business needs.
             </p>
 
             <div className='flex flex-wrap justify-center gap-4'>
@@ -81,10 +108,10 @@ export default function HeroBanner() {
 
             <div className='mt-6'>
               <Link
-                href='https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template'
+                href='https://codexcl.com'
                 className='text-blue-700 dark:text-green-700'
               >
-                👉 Please read README.md for more about project information
+                👉 Please go to our SAAS website for more about project information
               </Link>
             </div>
           </div>
