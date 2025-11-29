@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/mahmud-abdur-rahman.jpg',
+      image: 'img/codelinker.jpg',
       navbar: {
         title: 'Codelinker Ltd.',
         logo: {
