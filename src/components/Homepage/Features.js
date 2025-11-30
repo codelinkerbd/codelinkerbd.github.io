@@ -1,31 +1,31 @@
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Custom ERP & Business Automation Solutions',
+    Svg: require('@site/static/img/erpsoft.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your
-        website up and running quickly.
+        End-to-end ERP systems tailored to streamline operations, enhance workflows, and improve decision-making.
+        Includes: Inventory, Accounting, HRM, CRM, Production, SCM, POS & more.
       </>
     )
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Web & Mobile Application Development',
+    Svg: require('@site/static/img/webdev.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your
-        docs into the <code>docs</code> directory.
+        High-performance web platforms and mobile apps engineered for scalability, security, and seamless user experience.
+        Includes: SaaS platforms, business apps, API development, cross-platform mobile apps.
       </>
     )
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Cloud Infrastructure & System Integration',
+    Svg: require('@site/static/img/infra.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while
-        reusing the same header and footer.
+        Secure cloud deployment and integration services that connect business systems into one unified digital environment.
+        Includes: Cloud migration, DevOps setup, API integration, third-party system connectivity.
       </>
     )
   }
