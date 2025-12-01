@@ -4,6 +4,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import HomepageFeatures from '@/components/Homepage/Features'
 import LatestNews from '@/components/LatestNews'
 import HeroBanner from '@/components/HeroBanner'
+import Services from '@/components/Homepage/Services'
+import FAQ from '@/components/Homepage/FAQ'
+import SAASHero from '@/components/Homepage/SAAS'
+import FeaturesWithIcons from '@/components/Homepage/FeaturesWithIcons'
 
 export default function Home({ homePageBlogMetadata, recentPosts }) {
   const { siteConfig } = useDocusaurusContext()
@@ -15,7 +19,11 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
     >
       <main className='background-grid background-grid--fade-out'>
         <HeroBanner />
+        <FeaturesWithIcons />
         <HomepageFeatures />
+        <SAASHero />
+        <Services />
+        <FAQ />
         <LatestNews recentPosts={recentPosts} homePageBlogMetadata={homePageBlogMetadata} />
       </main>
     </Layout>
